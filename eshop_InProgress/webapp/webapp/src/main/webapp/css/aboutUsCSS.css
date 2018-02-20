@@ -1,0 +1,103 @@
+html {
+  background: url("../images/background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+  margin: 0px;
+}
+.actionbar {
+  padding-top: 15px;
+  padding-bottom: 50px;
+  font-family: Raleway;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  background: #252323;
+  white-space: nowrap;
+  overflow: auto;
+}
+.welcome {
+  color: #F5F1ED;
+  display: inline-block;
+  padding-left: 70px;
+}
+.welcome h4 {
+  font-style: italic;
+}
+.actions {
+  display: inline-block;
+  padding-left: 25%;
+}
+.link {
+  transition: 0.4s;
+  color: #ffffff;
+  font-size: 22px;
+  text-decoration: none;
+  padding: 0 8px;
+}
+.link:hover {
+  background-color: #F5F1ED;
+  color: #70798C;
+  padding: 14px 8px;
+  text-decoration: none;
+}
+
+.box-card {
+  position: relative;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 250px;
+  margin: 10px;
+  text-align: center;
+  font-family: arial;
+  min-width: 200px;
+  position: relative;
+  display: inline-block;
+  background-color: white;
+  transition: transform .2s;
+}
+.card img {
+  width: 100%;
+}
+.card:hover {
+  transform: scale(1.05);
+  max-width: auto;
+}
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.email {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  width: 100%;
+  font-size: 16px;
+}
+
+.font-awesome {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.font-awesome:hover {
+  opacity: 0.7;
+}
+
+.box-card h1 {
+  font-size: 100%;
+}
